@@ -23,7 +23,8 @@ public class TestAmazonHome {
   public void beforeMethod() {
 	  System.setProperty("webdriver.chrome.driver", "/Users/sapai/tools/chromedriver");
 	  driver =new ChromeDriver();
-	  driver.get("https://www.amazon.com");	  
+	  driver.get("https://www.amazon.com");	
+	  System.out.print("Brooks Ruehle");
   }
 
   @AfterMethod
